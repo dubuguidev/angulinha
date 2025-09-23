@@ -5,8 +5,8 @@ export const livros: Livro[] = [
         titulo: 'Attack on Titan',
         autoria: 'Hajime Isayama',
         genero: {
-          id: '	Shōnen',
-          value: 'Drama - Pós-Apocaliptico',
+          id: 'shounen',
+          value: 'Shounen',
           livros: []
         },
         favorito: false,
@@ -21,7 +21,7 @@ export const livros: Livro[] = [
           livros: []
         },
         favorito: false,
-        imagem: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wC...'
+        imagem: 'https://m.media-amazon.com/images/I/81D2d6LqZdS._UF1000,1000_QL80_.jpg'
       },
       {
         titulo: 'As ondas',
@@ -32,7 +32,7 @@ export const livros: Livro[] = [
           livros: []
         },
         favorito: false,
-        imagem: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wC...'
+        imagem: 'https://m.media-amazon.com/images/I/81D2d6LqZdS._UF1000,1000_QL80_.jpg'
       },
       {
         titulo: 'As ondas',
@@ -43,6 +43,6 @@ export const livros: Livro[] = [
           livros: []
         },
         favorito: false,
-        imagem: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wC...'
+        imagem: 'https://m.media-amazon.com/images/I/81D2d6LqZdS._UF1000,1000_QL80_.jpg'
       },
 ]
